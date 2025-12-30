@@ -1,0 +1,20 @@
+{
+  "autoResolve": false,
+  "createBackup": true,
+  "autoResolveRules": {
+    "preferIncoming": [
+      "package-lock.json",
+      "yarn.lock",
+      "pnpm-lock.yaml"
+    ],
+    "preferHead": [],
+    "alwaysKeepBoth": []
+  },
+  "excludePatterns": [
+    "*.min.js",
+    "*.bundle.js",
+    "dist/**",
+    "build/**"
+  ]
+}
+

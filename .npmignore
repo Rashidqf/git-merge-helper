@@ -1,0 +1,39 @@
+# Development files
+.vscode/
+.idea/
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Test files
+test/
+tests/
+*.test.js
+__tests__/
+
+# Documentation source
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup folder
+.git-merge-helper-backup/
+
+# Development dependencies
+coverage/
+.nyc_output/
+
