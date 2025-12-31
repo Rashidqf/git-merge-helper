@@ -37,3 +37,7 @@ Thumbs.db
 coverage/
 .nyc_output/
 
+# Publishing scripts (private use only)
+publish-*.ps1
+package.json.backup
+

@@ -47,3 +47,7 @@ build
 # Backup folder created by the tool itself
 .git-merge-helper-backup/
 
+# Publishing scripts (keep private)
+publish-*.ps1
+package.json.backup
+
