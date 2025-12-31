@@ -335,6 +335,20 @@ Or configure npm to install packages globally without sudo: [npm docs](https://d
 
 ## 🛠️ Development Setup
 
+### Installation from npm
+
+Your package is now live on npm! Install it globally:
+
+```bash
+npm install -g git-merge-helper
+```
+
+Or use it without installation:
+
+```bash
+npx git-merge-helper
+```
+
 ### Local Development
 
 ```bash
@@ -352,16 +366,16 @@ npm link
 git-merge-helper --help
 ```
 
-### Publishing
+### Publishing Updates
 
-This package can be published to both npm and GitHub Packages:
+To publish new versions to npm:
 
 ```bash
-# Publish to npm
-npm run publish:npm
+# Update version
+npm version patch  # or minor, or major
 
-# Publish to GitHub Packages
-npm run publish:github
+# Publish
+npm run publish:npm
 ```
 
 ---
